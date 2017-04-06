@@ -39,3 +39,61 @@
     z-index: 5;
     background: radial-gradient(circle at 50% 55%, rgba(240, 245, 255, 0.9), rgba(240, 245, 255, 0.9), 40%, rgba(225, 238, 255, 0.8) 60%, rgba(43, 130, 255, 0.4));
 }
+
+.css-jar .css-liquid{
+    height: 39px;
+    background-color: rgb(53, 238, 251);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.css-jar .css-wave{
+    width: 58px;
+    height: 19px;
+    position: absolute;
+    background-color: rgb(53, 238, 251);
+    left: 0;
+    top: 56px;
+    animation: css-wave 1.15s linear 1.15s infinite alternate;
+    border-radius: 50%;
+}
+
+.css-jar .css-wave + .css-wave{
+    left: auto;
+    right: 0;
+}
+
+.css-jar .flask-base .css-bubble{
+    left: 15px;
+    top: 49px;
+    animation: css-bounce 2.65s linear 0s infinite alternate;
+}
+
+.css-jar .flask-base .css-bubble + .css-bubble{
+    left: 73px;
+    top: 39px;
+    animation-duration: 3.45s;
+}
+
+@keyframes css-wave{
+    from{
+        transform: translateX(97px);
+    }
+    to{
+        transform: translateX(-97px);
+    }
+}
+@keyframes css-bounce{
+    0%{
+        transform: translate(5px, 15px);
+    }
+    50%{
+        transform: translate(0, -15px);
+    }
+    100%{
+        transform: translate(-5px, -36px);
+        opacity: 1;
+    }
+}
