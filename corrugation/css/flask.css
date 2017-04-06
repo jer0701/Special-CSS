@@ -1,0 +1,41 @@
+.css-jar{
+    position: relative;
+    width: 195px;
+    margin: 200px auto 0;
+    text-align: center;
+    transform: scale(2.5);
+}
+
+.css-jar .flask-mouth{
+    background: radial-gradient(circle at 50% 55%, rgba(240, 245, 255, 0.9), rgba(240, 245, 255, 0.9), 40%, rgba(225, 238, 255, 0.8) 60%, rgba(43, 130, 255, 0.4));
+    width: 40px;
+    height: 10px;
+    margin: 0 auto -1px;
+    border-right: 1px solid rgb(43, 130, 255);
+    border-left: 1px solid rgb(43, 130, 255);
+    border-radius: 19px;
+}
+
+.css-jar .flask-neck{
+    width: 34px;
+    height: 46px;
+    margin: 0 auto -7px;
+    z-index: 7;
+    position: relative;
+    border-right: 1px solid rgb(43, 130, 255);
+    border-left: 1px solid rgb(43, 130, 255);
+    background: radial-gradient(circle at 50% 55%, rgba(240, 245, 255, 0.9), rgba(240, 245, 255, 0.9), 40%, rgba(225, 238, 255, 0.8) 60%, rgba(43, 130, 255, 0.4));
+}
+
+.css-jar .flask-base{
+    margin: auto;
+    width: 117px;
+    height: 97px;
+    border: 1px solid rgb(43, 130, 255);
+    border-top: 0 solid #FFF;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    z-index: 5;
+    background: radial-gradient(circle at 50% 55%, rgba(240, 245, 255, 0.9), rgba(240, 245, 255, 0.9), 40%, rgba(225, 238, 255, 0.8) 60%, rgba(43, 130, 255, 0.4));
+}
